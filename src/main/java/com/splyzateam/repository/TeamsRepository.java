@@ -2,6 +2,7 @@ package com.splyzateam.repository;
 
 import com.splyzateam.entity.TeamsEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
@@ -9,5 +10,6 @@ import java.util.Optional;
 @Repository
 public interface TeamsRepository extends JpaRepository<TeamsEntity,Long> {
 
-    Optional<TeamsEntity> findById(String id);
+    @Query("FROM TeamsEntity WHERE id=:id")
+    TeamsEntity findById(String id);
 }

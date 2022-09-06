@@ -14,6 +14,9 @@ public class Plan {
     private Long supporterLimit;
 
     public Long getMemberLimit() {
+        if(memberLimit == null){
+            memberLimit = 0l;
+        }
         return memberLimit;
     }
 
@@ -22,6 +25,9 @@ public class Plan {
     }
 
     public Long getSupporterLimit() {
+        if(supporterLimit == null){
+            supporterLimit = 0l;
+        }
         return supporterLimit;
     }
 

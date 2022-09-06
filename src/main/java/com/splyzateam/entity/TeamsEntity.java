@@ -6,6 +6,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "teams")
 public class TeamsEntity {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long team_id;
@@ -22,6 +23,9 @@ public class TeamsEntity {
     private Plan plan;
 
     public String getId() {
+        if(id == null){
+            id = "";
+        }
         return id;
     }
 
@@ -30,6 +34,9 @@ public class TeamsEntity {
     }
 
     public Members getMembers() {
+        if(members == null){
+            members = new Members();
+        }
         return members;
     }
 
@@ -38,6 +45,9 @@ public class TeamsEntity {
     }
 
     public Plan getPlan() {
+        if(plan == null){
+            plan = new Plan();
+        }
         return plan;
     }
 

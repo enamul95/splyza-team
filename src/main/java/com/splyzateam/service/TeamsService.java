@@ -8,5 +8,5 @@ public interface TeamsService {
 
     public TeamsEntity save(TeamsEntity entity);
 
-    public Optional<TeamsEntity> getTeamsById(String teamId);
+    public TeamsEntity getTeamsById(String teamId);
 }

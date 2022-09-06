@@ -18,6 +18,10 @@ public class Members {
     private Long total;
 
     public Long getAdministrators() {
+
+        if(administrators == null){
+            administrators = 0l;
+        }
         return administrators;
     }
 
@@ -26,6 +30,9 @@ public class Members {
     }
 
     public Long getEditors() {
+        if(editors == null){
+            editors = 0l;
+        }
         return editors;
     }
 
@@ -34,6 +41,9 @@ public class Members {
     }
 
     public Long getManagers() {
+        if(managers == null){
+            managers = 0l;
+        }
         return managers;
     }
 
@@ -42,6 +52,9 @@ public class Members {
     }
 
     public Long getMembers() {
+        if(members == null){
+            members = 0l;
+        }
         return members;
     }
 
@@ -50,6 +63,9 @@ public class Members {
     }
 
     public Long getSupporters() {
+        if(supporters == null){
+            supporters = 0l;
+        }
         return supporters;
     }
 
@@ -58,6 +74,9 @@ public class Members {
     }
 
     public Long getTotal() {
+        if(total == null){
+            total = 0l;
+        }
         return total;
     }
 

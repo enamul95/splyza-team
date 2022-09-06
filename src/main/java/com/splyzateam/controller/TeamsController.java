@@ -26,7 +26,7 @@ public class TeamsController {
     }
 
     @GetMapping("/teams/{teamId}")
-    public Optional<TeamsEntity> getTeamsById(@PathVariable String teamId) {
+    public TeamsEntity getTeamsById(@PathVariable String teamId) {
         return teamsService.getTeamsById(teamId);
     }
 
