@@ -1,6 +1,6 @@
 # splyza-team
 
-# Tech stack & Open-source libraries
+# Tech stack
  - Jdk 11
  - spring boot 2.7.3
  - idea intellij
