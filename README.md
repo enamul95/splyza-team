@@ -37,3 +37,8 @@
 - connect from android & ios project
 - I have provided some screen shots in splyza-team of google drive. Please check
 - enjoy
+
+# Share screenshots
+ - Please check some screenshots splyza-team folder from the like https://drive.google.com/drive/folders/1lVmlVvsNRpC4Ph3lPk8LnMV04_V8y6KZ?usp=sharing
+
+
