@@ -18,6 +18,8 @@ public class UserRegistrationController {
 
     @PostMapping("save")
     public ResponseModel save(@RequestBody  UserRegistrationEntity userRegistrationEntity) {
+        System.out.println("Calling save ***********");
+        System.out.println("userRegistrationEntity = " + userRegistrationEntity);
         return userRegistrationService.save(userRegistrationEntity);
     }
 
