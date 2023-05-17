@@ -23,6 +23,7 @@ public class EmployeeEntity {
     private String lastName;
     private String email;
     private String dob;
+    private String gender;
     private String education;
     private String company;
     private String experience;
