@@ -10,7 +10,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ParentMenu {
-    private String menuName;
+    private String parentMenuNme;
     private String icon;
     private String routerLink;
     List<ChildMenu> children;
