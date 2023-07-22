@@ -54,13 +54,13 @@ public class MenuServiceImpl implements MenuService {
         ChildMenu menuChild1 = new ChildMenu();
         menuChild1.setMenuName("Add User");
         menuChild1.setIcon("people");
-        menuChild1.setRouterLink("/user/add-user");
+        menuChild1.setRouterLink("./about");
         childList1.add(menuChild1);
 
         ChildMenu menuChild2 = new ChildMenu();
         menuChild2.setMenuName("Add User Right");
         menuChild2.setIcon("people");
-        menuChild2.setRouterLink("/app-home");
+        menuChild2.setRouterLink("./about");
         childList1.add(menuChild2);
         menu2.setChildren(childList1);
 
